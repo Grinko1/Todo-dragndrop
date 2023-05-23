@@ -1,0 +1,16 @@
+.list {
+  width: 30%;
+  border: 1px solid #575656;
+  padding: 20px;
+  min-height: 50vh;
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.list-todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}

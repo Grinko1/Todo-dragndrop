@@ -1,0 +1,37 @@
+.todo {
+  border: 1px solid #bbb8b8;
+  padding: 20px;
+  width: 90%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.todo-completed{
+    border: 1px solid #3b609c;
+}
+.todo-deleted {
+  border: 1px solid firebrick;
+  filter: blur(1px);
+}
+
+.todo-delete {
+  color: firebrick;
+  cursor: pointer;
+  font-size: 18px;
+}
+.todo-deleted .todo-done{
+      cursor: not-allowed;
+}
+
+
+.todo-deleted .todo-delete {
+  cursor: not-allowed;
+}
+
+.todo-time {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
